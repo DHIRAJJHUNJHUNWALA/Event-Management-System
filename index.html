@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Event-management-system by DHIRAJJHUNJHUNWALA</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/DHIRAJJHUNJHUNWALA/Event-Management-System">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Event-management-system</h1>
+            <h2>Event Management System is a Web Application fabricated to manage the steps involved before the event actually takes place in an educational institution. It provides an interface to the organising committee and the institution administration, allowing to apply for an event, check event status, pass the pemission for the event, allocate the venue, date and time for the event, and other such steps involved. The application has been coded in HTML, CSS, PHP, Javascript and Ajax, and makes extensive use of SQL for managing database. Download the code, and just make the database tables as per the scripts. Run it in your local server or hosting.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/DHIRAJJHUNJHUNWALA/Event-Management-System/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/DHIRAJJHUNJHUNWALA/Event-Management-System/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="event-management-system" class="anchor" href="#event-management-system" aria-hidden="true"><span class="octicon octicon-link"></span></a>Event Management System</h1>
+
+<h3>
+<a id="developed-by-dhiraj-jhunjhunwala-vit-university-vellore" class="anchor" href="#developed-by-dhiraj-jhunjhunwala-vit-university-vellore" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Developed by: Dhiraj Jhunjhunwala, VIT University, Vellore</strong>
+</h3>
+
+<ul>
+<li>Event Management System is a web-application fabricated to manage the steps involved before the event actually takes place in an educational institution. It provides an interface to the organising committee and the institution administration, allowing to apply for an event, check event status, pass the pemission for the event, allocate the venue, date and time for the event, and other such steps involved. The application has been coded in HTML, CSS, PHP, Javascript and Ajax, and makes extensive use of SQL for managing database.</li>
+<li>Download the code, and don't forget to make the database tables as per the scripts before running it in your local server or hosting.</li>
+<li>The index.php file is an appointment form, meant to be accessible only by any institution authority personnel(like the faculty coordinator of the club/chapter conducting the event, who ie required to appoint person(s) from the organising team as the event coordinator to apply for permission to conduct the event. A username is asked, which is checked through the database by Ajax code for its uniqueness, and the registration number is used as a password field.</li>
+<li>Login.php is a login page for the event coodinator, which uses sessions to take through the eventform.php(Event Registration Page). Each event is saved in the database along with a UUID no. assigned to it, and is called using this no. only.</li>
+<li>At the event registration page, PHP is used to enter the event details into the database. Visit the check event status link to get to costatus.php, which tells the event coordinator about the status of the event(pending or confirmed). For the confirmed events, there exists an option to get the info in pdf format with the PHPtoPDF free plugin available online.</li>
+<li>Before the event gets confirmed, the pending event passes for approval through three levels of institution authority: President of the club/chapter, Faculty cooordinator, and DSW(or any higher authority) at the pages: plogin.php, flogin.php, and dswlogin.php.</li>
+<li>In the present project, the demonstration has been given for such a system. You can use and edit the code to suit your own convenience and level of security.</li>
+</ul>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/DHIRAJJHUNJHUNWALA">DHIRAJJHUNJHUNWALA</a> can be found on <a href="https://github.com/DHIRAJJHUNJHUNWALA/Event-Management-System">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-71914013-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
