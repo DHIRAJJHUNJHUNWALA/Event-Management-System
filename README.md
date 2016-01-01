@@ -1,0 +1,3 @@
+# EventApplication
+# Developed by: Dhiraj Jhunjhunwala, VIT University, Vellore
+Event Application is Web Application fabricated to manage the steps involved before the event actually takes place in an educational institution. It provides an interface to the organising committee and the institution administration, allowing to apply for an event, check event status, pass the pemission for the event, allocate the venue, date and time for the event, and other such steps involved. The application has been coded in HTML, CSS, PHP, Javascript and Ajax, and makes extensive use of SQL for managing database. Download the code, and just make the database tables as per the scripts. Run it in your local server or hosting.
